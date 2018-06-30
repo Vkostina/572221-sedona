@@ -3,65 +3,63 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона Sedona</title>
-    <!-- <link rel="stylesheet" type="text/css" href="css/style.css">  -->
-
-  </head>
-  <body>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
     <div class="wrapper">
        <header>
-            <nav class="main-navigation">
-                <a class="logo" href="index.html"> <img src="img/logo.png" width="138" height="70" alt="Логотип города Sedona"> </a>
-                <ul class="main-menu">
+          <nav class="main-navigation">
+            <a class="logo" href="index.html"> <img src="img/logo.png" width=  "170" height="90" alt="Логотип города Sedona"> </a>
+              <ul class="main-menu">
                     <li><a href="#">Информация</a></li>
                     <li><a href="#">Фото и видео</a></li>
+                    <li> </li>
                     <li><a href="#">Карта штата</a></li>
-                     <li><a href="hotels.html">Гостинницы</a></li>
+                    <li><a href="hotels.html">Гостинницы</a></li>
                 </ul>
             </nav>
         </header>
-
-
-      <main>
+        <main>
         <div class="main-background">
           <!--<h1> СЕДОНА </h1>-->
         </div>
         <div class=" main-title">
           <h2>Седона-небольшой городок в Аризоне,
             заслуживающий большего!</h2>
-          <h3> Рассмотрим пять причин, по которым Седона круче
+          <h3> Рассмотрим 5 причин, по которым Седона круче
               чем Гранд Каньон!
           </h3>
         </div>
         <section class="main-advantage">
           <div class="main-advantage__text">
-            <h2 class="white">Седона настоящий городок <h2>
+            <h2 class="white">Настоящий <br>городок <h2>
             <p class="white"> - №1 - </p>
-            <h3 class="white">Седона - не атракцион для туристов,там течет своя жизнь.</div>
+            <h3 class="white">Седона - не атракцион для туристов,там <br>течет своя жизнь.</div>
           <div class="main-advantage__img">Картинка</div>
         </section>
 
         <section class="main-description">
           <div class="main-description__item">
-            <img src="/" width="50" height="50"alt="Домик">
+            <img src="/" width="150" height="150"alt="house">
             <h2>Жилье</h2>
             <h3>Рекомендуем пожить как в настоящем мотеле,как в кино!</h3>
           </div>
           <div class="main-description__item">
-            <img src="/" width="50" height="50" alt="Еда ">
+            <img src="/" width="50" height="50" alt="burger">
             <h2>Еда</h2>
-            <h3>Всегда заказывайте фирменный бургер,вы не разочаруетусь!</h3>
+            <h3>Всегда заказывайте фирменный бургер,вы <br>не разочаруетусь!</h3>
           </div>
           <div class="main-description__item">
-            <img src="/" width="50" height="50" alt="Сувенир">
+            <img src="/" width="50" height="50" alt="souvenir">
             <h2>Сувениры</h2>
-            <h3>Не только китайского,но и местного производства!</h3>
+            <h3>Не только китайского,но и местного <br>производства!</h3>
           </div>
         </section>
 
         <section class="main-advantage">
           <div class="main-advantage__img">Картинка</div>
           <div class="main-advantage__text">
-            <h2 class="white">Там есть мост дьявола <h2>
+            <h2 class="white">Там есть<br> мост дьявола <h2>
             <p class="white"> - №2 - </p>
             <h3 class="white">Да,по нему можно пройти! Если конечно вы осмелитесь </h3>
            </div>
@@ -69,17 +67,17 @@
 
         <section class="main-description gray">
           <div class="main-description__item">
-            <h2>Небольшая площадь</h2>
+            <h2>Небольшая <br>площадь</h2>
             <p class="white"> - №3 - </p>
             <h3>Все достопримечательности находятся очень близко</h3>
           </div>
           <div class="main-description__item">
-            <h2>Красивая дорога</h2>
+            <h2>Красивая <br>дорога</h2>
             <p class="white"> - №4 - </p>
             <h3>Ехать в Седону из Лас-Вегаса совсем не скучно!</h3>
           </div>
            <div class="main-description__item">
-            <h2>Мало туристов</h2>
+            <h2>Мало <br>туристов</h2>
             <p class="white"> - №5 - </p>
             <h3>Большинство едет в Гранд Каньон и толпится там</h3>
           </div>
@@ -87,51 +85,68 @@
 
         <div class=" main-title">
           <h2>Заинтересовались?</h2>
-          <h3> Укажите предполагаемые даты поездки.И мы покажем вам лучшие предложения гостиниц в Седоне.
+          <h3> Укажите предполагаемые даты поездки<br>и мы покажем вам лучшие предложения гостиниц в Седоне.
           </h3>
-          <a class="main-button" href="/">Поиск гостиницы в Седоне</a>
-          <form class="main-form">
-
+      <div class="search-hotels">
+        <a class="btn-search" href="#">Поиск гостиницы в Седоне</a>
+        <div class="search-hotel-form">
+          <form class="login-form" action="/" method="post">
+            <div class="search-form-row clearfix">
+              <label class="form-label" for="date-chek-in">Дата заезда:</label>
+              <div class="input-container">
+                <input class="form-input" type="text" id="date-chek-in" name="date-chek-in" value="24 апреля 2014">
+                <a class="calendar icon-calendar" href="#"></a>
+              </div>
+            </div>
+            <div class="search-form-row clearfix">
+              <label class="form-label" for="date-chek-out">Дата выезда:</label>
+              <div class="input-container">
+                <input class="form-input" type="text" id="date-chek-out" name="date-chek-out" value="4 июля 2014">
+                <a class="calendar icon-calendar" href="#"></a>
+              </div>
+            </div>
+            <div class="search-form-row-last count-guests clearfix">
+              <div class="guest-adults clearfix">
+                <label class="form-label" for="adults">Взрослые:</label>
+                <div class="choise clearfix">
+                  <a class="choise-minus icon-minus" href="#"></a>
+                  <input class="choise-input" type="text" id="adults" name="input-adults" value="2">
+                  <a class="choise-plus icon-plus" href="#"></a>
+                </div>
+              </div>
+              <div class="guest-children clearfix">
+                <label class="form-label" for="children">Дети:</label>
+                <div class="choise clearfix">
+                  <a class="choise-minus icon-minus" href="#"></a>
+                  <input class="choise-input" type="text" id="children" name="input-child" value="0">
+                  <a class="choise-plus icon-plus" href="#"></a>
+                </div>
+              </div>
+            </div>
+            <input class="btn-find" type="submit" id="btn-find" name="btn-find" value="Найти">
           </form>
         </div>
-
-        <div class="map-background">Карта</div>
-
-        <footer class="footer">
-          <div class="footer__item">
-              <a class="footer__link" href="/">#Visitsedona</a>
+      </div>
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d209540.7092408266!2d-111.79513845!3d34.854378399999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1443028661566" width="100%" height="593" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+      <footer class="footer footer-index">
+        <div class="footer-column">
+          <a href="https://twitter.com/search?q=%23visitsedona&amp;src=typd">#visitsedona</a>
+        </div>
+        <div class="footer-column">
+          <a href="#" class="btn-social icon-twitter"></a>
+          <a href="#" class="btn-social icon-facebook"></a>
+          <a href="#" class="btn-social icon-youtube"></a>
+        </div>
+        <div class="footer-column">
+          <div class="copyright">
+            <div class="by">website by</div>
+            <a class="academy-logo" href="#"></a>
           </div>
-          <div class="footer__item">
-               <a class="footer__social" href="/">
-                 <img src="/" width="20" height="20">
-               </a>
-               <a class="footer__social" href="/">
-                 <img src="/" width="20" height="20">
-               </a>
-               <a class="footer__social" href="/">
-                 <img src="/" width="20" height="20">
-               </a>
-             </div>
-
-          <div class="footer__item">
-            <div class="footer__logo">
-            <div> Website by </div>
-            <a class="footer__logo-link">
-                 <img src="/" width="30" height="20" alt="Логотип"></a>
-            </div>
-          </div>
-          </footer>
-
-
-
-
-
-
-
-
-
-
-      </main>
+        </div>
+      </footer>
     </div>
+    <script src="js/scripts.min.js"></script>
   </body>
 </html>
