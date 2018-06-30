@@ -23,6 +23,14 @@ ul{
   padding: 0px;
   margin: 0px;
 }
+h2{
+  font-size: 21px;
+}
+h3{
+  font-size: 14px;
+  line-height:21px;
+  font-weight: normal;
+}
 .main-menu a{
   text-transform: uppercase;
   text-decoration: none;
@@ -41,14 +49,11 @@ ul{
 .main-menu li{
   width: 20%;
   text-align:center;
-
-
 }
 .logo{
   position: absolute;
   left: 50%;
   margin-left: -85px;
-
 }
 .main-navigation{
   position: relative;
@@ -66,14 +71,12 @@ ul{
 .main-title{
   display: block;
   margin-top: 50px;
-
 }
 .main-title h2{
   display: flex;
   width: 500px;
   height: 100px;
   margin: auto;
-
   flex-direction: column;
   align-content: center;
   text-align: center;
@@ -88,46 +91,51 @@ ul{
   font-size: 15px;
   text-align:center;
 }
-.main-advantag{
-  display: block;
+.main-advantage{
+  display:flex;
+  flex-direction: row;
 }
 
-
-  .main-advantage__text{
-    box-sizing: border-box;
-    min-height: 256px;
-    width: 33%;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 50px;
-    float: left;
-    text-align: center;
-    background-color: #81b3d2;
-    color: #fff;
-}
-
-
-}
 .main-advantage__img{
+  width:800px;
+  height:256px;
+  background-image: url(../img/sedona-block-right.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
-    background: #ebafa5 url(../img/sedona-block-right.jpg) no-repeat 50% 50%;
-    background-size: cover;
-  display: block;
-  width: 800px;
-  height:250px;
-  border: 1px solid #e5e5e5;
+.main-advantage__text{
+  box-sizing: border-box;
+  min-height: 256px;
+  width: 33%;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  float: left;
+  text-align: center;
+  background-color: #81b3d2;
+  color: #fff;
+}
+.main-advantage__img_brige {
+   background-image: url(../img/sedona-block-left.jpg);
+}
 
+.main-description{
+  width: 1200px;
+  height: 256px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
 }
 .main-description__item{
-  display:block;
-    width: 400px;
-    height: 250px;
-    text-align: center;
-    border: 1px solid #e5e5e5
-
+  width: 33%;
+  text-align: center;
+  padding: 30px;
+}
+.main-description.gray{
+  background-color: #f2f2f2;
 
 }
-
-
 
 
