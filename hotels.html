@@ -22,9 +22,9 @@
         <div class="main-background"></div>
         <div class="form__wrapper">
         <form class="form">
-          <form class="form_checkboxes-wrapper">
-          <section class="form_checkboxes">
-             <div class="form_title">Инфраструктура</div>
+          <form class="form__checkboxes-wrapper">
+          <section class="form__checkboxes">
+             <div class="form__title">Инфраструктура</div>
             <input type="checkbox" name="pool" id="pool-field" checked><span class="checkbox-custom"></span>
             <label for="pool-field">Бассейн</label><br>
             <input type="checkbox" name="parking" id="parking-field"><span class="checkbox-custom"></span>
@@ -32,7 +32,7 @@
             <input type="checkbox" name="wi-fi" id="wi-fi-field"><span class="checkbox-custom"></span>
             <label for="wifi-field"> Wi-Fi</label>
 
-            <div class="form_title">Тип жилья</div>
+            <div class="form__title">Тип жилья</div>
             <input type="checkbox" name="hotel" id="hotel-field"checked>
              <label for="hotel-field">Гостиница</label><br>
             <input type="checkbox" name="motel" id="hotel-field"checked>
@@ -41,7 +41,7 @@
             <label for="appart-field">Аппартаменты</label>
             </section>
 
-            <form class="form_toggie">
+            <form class="form__toggie">
             <label for="search-field">Стоимость в сутки(р):</label><br>
             <input type="text" name="search"id="search-field" value="от 0 до 3000"> </form>
             <div class="buttons">
@@ -51,79 +51,81 @@
          </form>
          <section class="catalog-hotels">
                 <h2 class="visually-hidden">Список отелей</h2>
-         <div class="sorting_wrapper">
-          <span class="sorting-result">Найдено:</span>
-          <span class="sorting-result">3</span>
-         <div class="sorting-list">
-          <div class="title">Сортировка:</div>
+         <div class="sorting__wrapper">
+          <span class="sorting__result">Найдено:</span>
+          <span class="sorting__result">3</span>
+         <div class="sorting__list">
+          <div class="sorting__title">Сортировка:</div>
            <ul>
-          <li><a href="sorting_price">по цене</a></li>
-          <li><a href="sorting_item">по типу</a></li>
-          <li><a href="sorting_rating">по рейтингу</a></li>
+          <li><a href="sorting__price">по цене</a></li>
+          <li><a href="sorting__item">по типу</a></li>
+          <li><a href="sorting__rating">по рейтингу</a></li>
             </ul>
-            <div class="sorting_positision"></div>
-            <div class="sorting_up"></div>
-            <div class="sorting_down"></div>
+            <div class="sorting__positision"></div>
+            <div class="sorting__btn sorting__btn_up"></div>
+            <div class="sorting__btn sorting__btn_down"></div>
            </div>
           </div>
-         <div class="hotel">
-            <div class="hotel_imag"><img src ="/" width="200" height="100"alt="фото отеля Amara resort & spa"></div>
-            <div class="otel_info">
+         <div class="hotel__item">
+            <div class="hotel__image"><img src ="/" width="200" height="100"alt="фото отеля Amara resort & spa"></div>
+            <div class="hotel__info">
             <h3 class="">Amara resort & spa</h3>
-            <p class="otel_info-block">
-            <p class="otel-type">Гостиница</p>
+            <p class="hotel__info-block">
+            <p class="hotel__type">Гостиница</p>
             <div class="buttons">
              <input type="submit" value="Подробнее">
-             <div class="otel_price"> от 4000р.</div>
+             <div class="otel__price"> от 4000р.</div>
               <div class="buttons">
                 <input type="submit" value="Забронировать">
                </div>
              </div>
-             <div class="otel_rating"></div>
-               <div class="hotel_star"></div>
-               <span class="otel_rating-4">Рейтинг</span>
+             <div class="otel__rating"></div>
+               <div class="hotel__star"></div>
+               <span class="otel__rating-4">Рейтинг</span>
                <span>8,5</span>
              </div>
-           </div>
-            <div class="hotel">
-            <div class="hotel_imag"><img src ="/" width="200" height="100"alt="фото отеля Desert Quail Inn"></div>
-            <div class="otel_info">
-            <h3 class="">Desert Quail Inn</h3>
-            <p class="otel_info-block">
-            <p class="otel-type">Мотель</p>
+          </div>
+          <div class="hotel__item">
+            <div class="hotel__image"><img src ="/" width="200" height="100"alt="фото отеля Amara resort & spa"></div>
+            <div class="hotel__info">
+            <h3 class="">Amara resort & spa</h3>
+            <p class="hotel__info-block">
+            <p class="hotel__type">Гостиница</p>
             <div class="buttons">
              <input type="submit" value="Подробнее">
-             <div class="otel_price"> от 3000р.</div>
+             <div class="otel__price"> от 4000р.</div>
               <div class="buttons">
                 <input type="submit" value="Забронировать">
                </div>
              </div>
-             <div class="otel_rating"></div>
-               <div class="hotel_star"></div>
-               <span class="otel_rating-3">Рейтинг</span>
-               <span>8,9</span>
+             <div class="otel__rating"></div>
+               <div class="hotel__star"></div>
+               <span class="otel__rating-4">Рейтинг</span>
+               <span>8,5</span>
              </div>
-            </div>
-            <div class="hotel">
-            <div class="hotel_imag"><img src ="/" width="200" height="100"alt="фото отеля Villas At Poco Diablo"></div>
-            <div class="otel_info">
-            <h3 class="">Villas At Poco Diablo</h3>
-            <p class="otel_info-block">
-            <p class="otel-type">Аппартаменты</p>
+          </div>
+
+          <div class="hotel__item">
+            <div class="hotel__image"><img src ="/" width="200" height="100"alt="фото отеля Amara resort & spa"></div>
+            <div class="hotel__info">
+            <h3 class="">Amara resort & spa</h3>
+            <p class="hotel__info-block">
+            <p class="hotel__type">Гостиница</p>
             <div class="buttons">
              <input type="submit" value="Подробнее">
-             <div class="otel_price"> от 2000р.</div>
+             <div class="otel__price"> от 4000р.</div>
               <div class="buttons">
                 <input type="submit" value="Забронировать">
                </div>
              </div>
-               <div class="otel_rating"></div>
-               <div class="hotel_star"></div>
-               <span class="hotel_rating-2">Рейтинг</span>
-               <span>9,2</span>
+             <div class="otel__rating"></div>
+               <div class="hotel__star"></div>
+               <span class="otel__rating-4">Рейтинг</span>
+               <span>8,5</span>
              </div>
-            </div>
-          </section>
+          </div>
+        </section>
+
           <footer class="footer">
           <div class="footer__item">
               <a class="footer__link" href="/">#Visitsedona</a>
@@ -147,15 +149,7 @@
             </div>
           </div>
           </footer>
-
-
-
-
-
-
-
-
-      </main>
+        </main>
     </div>
   </body>
 </html>
